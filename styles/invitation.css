@@ -1,0 +1,71 @@
+* {
+    margin: 0 auto;
+}
+
+header {
+    margin: 0 auto;
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 10%;
+    border: solid 1px red;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    border: solid 1px red;
+    flex-grow: .5;
+}
+
+.countdown h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    border: solid 1px red;
+}
+
+.countdown h2 {
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    border-top: solid 1px black;
+    border: solid 1px red;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.invitacion {
+    padding: 1rem;
+    align-self: center;
+    border: solid 1px red;
+}
+
+.pases {
+    margin: 0 auto;
+    padding: 1rem;
+    border: solid 1px red;
+}
+
+.mapa {
+    padding: 1rem;
+}
+
+footer {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    border: solid 1px red;
+    text-align: center;
+}
+
+.mapa {
+    border: solid 1px red;
+}
