@@ -14,8 +14,6 @@
     <header>
         <img src="images/logo.png" alt="logo" width="100" height="100">
         <h1>Nuestra Boda Odeth & Josue</h1>
-        <!-- <h2>Mis Invitaciones:</h2> -->
-        <!-- <h3>Mis Invitaciones:</h3> -->
     </header>
     <main>
         <div class="countdown">
@@ -34,6 +32,11 @@
                     height="300" 
                     style="border:0;" 
                     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="button">
+            <h2>Envianos un mensaje confirmando tu asistencia</h2>
+            <textarea id="mensaje" name="mensaje" required placeholder="Familia Hernandez Cornejo Confirma su asistencia 3 Invitados..."></textarea>
+            <button onclick="sendToWhatsapp()">Enviar</button>
         </div>
     </main>
     <footer>

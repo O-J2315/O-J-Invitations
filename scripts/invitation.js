@@ -20,3 +20,12 @@ function updateCountdown() {
 setInterval(updateCountdown, 1000);
 
 updateCountdown();
+
+function sendToWhatsapp() {
+    let number = "+526568404388";
+    let mensaje = document.getElementById("mensaje").value;
+
+    let url = `https://wa.me/${number}?text=${mensaje}`;
+
+    window.open(url, '_blank').focus();
+}

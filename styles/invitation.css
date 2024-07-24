@@ -11,17 +11,20 @@ header {
     display: flex;
     max-width: 100%;
     height: 10%;
-    border: solid 1px red;
+    /* background-color: rgb(230, 220, 205); */
+    border: solid 1px rgb(0, 0, 0);
     padding: 1rem;
+    border-radius: 1rem;
 }
 
 header h1 {
     font-size: 4.5rem;
     flex-grow: 0.5;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     font-family: "Allura", cursive;
     font-weight: 500;
     font-style: normal;
+    border-left: solid 1px black;
 }
 
 header img {
@@ -29,22 +32,30 @@ header img {
     align-self: center;
 }
 
+.countdown {
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.123);
+    padding: 1rem;
+    margin: 1rem;
+}
+
 .countdown h1 {
     text-align: center;
-    padding-top: 1rem;
-    border: solid 1px red;
+    padding-top: 1.5rem;
+    /* border: solid 1px red; */
     font-family: "Allura", cursive;
     font-weight: 100;
     font-size: 4rem;
+    margin-bottom: .5rem;
 }
 
 .countdown h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
     border-top: solid 1px black;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     color: rgb(218, 185, 3);
+    padding-top: .5rem;
 }
 
 main {
@@ -58,28 +69,63 @@ main {
 .invitacion {
     padding: 1rem;
     align-self: center;
-    border: solid 1px red;
+    border: solid 1px rgb(0, 0, 0);
 }
 
 .pases {
     padding: 1rem;
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 .mapa {
     padding: 1rem;
-    border: solid 1px red;
+    /* border: solid 1px red; */
+}
+
+.button {
+    border: solid 1px rgb(0, 0, 0);
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1rem 1rem rgb(184, 53, 53);
+}
+
+.button h2 {
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-family: "Allura", cursive;
+    font-weight: 100;
+}
+
+.button textarea {
+    padding: .5rem;
+}
+
+.button button {
+    margin-top: .5rem;
+    padding: .5rem;
+    width: 50%;
+    align-self: center;
+    border-radius: 1rem;
+    border: none;
+    font-weight: 200;
+    font-family: "Allura", cursive;
+    font-size: 1.5rem;
 }
 
 footer {
     max-width: 100%;
     padding: 1rem;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     text-align: center;
     font-family: "Allura", cursive;
     font-weight: 100;
     font-style: normal;
     font-size: 1.5rem;
+    border: solid 1px black;
+    border-radius: 1rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -88,7 +134,7 @@ footer {
     }
 
     header img {
-        border: solid 1px red;
+        /* border: solid 1px red; */
         width: 30%;
         height: 30%;
         align-self: center;
@@ -104,7 +150,7 @@ footer {
     }
 
     .countdown h2 {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
     main {
@@ -127,5 +173,10 @@ footer {
     footer {
         font-size: 0.8rem;
     }
-
+    .button h2 {
+        font-size: 2rem;
+    }
+    .button textarea {
+        font-size: 1rem;
+    }
 }
