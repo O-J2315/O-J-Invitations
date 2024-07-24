@@ -26,6 +26,7 @@ header h1 {
 
 header img {
     width: auto;
+    align-self: center;
 }
 
 .countdown h1 {
