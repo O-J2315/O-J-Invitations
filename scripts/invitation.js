@@ -27,5 +27,11 @@ function sendToWhatsapp() {
 
     let url = `https://wa.me/${number}?text=${mensaje}`;
 
-    window.open(url, '_blank').focus();
+    console.log(mensaje);
+
+    if (mensaje) {
+        window.open(url, '_blank').focus();
+    }else{
+        alert("Llena el mensaje");
+    }
 }
