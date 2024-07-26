@@ -144,9 +144,11 @@ footer {
 
 form {
     /* border: solid 1px red; */
-    width: 70%;
+    width: 90%;
     padding: .5rem;
     padding-right: 4rem;
+    align-items: center;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 768px) {
