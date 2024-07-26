@@ -5,7 +5,7 @@ Allura
  */
 * {
     margin: .5rem auto .5rem auto;
-    max-width: 95%;
+    max-width: 98%;
 }
 
 header {
@@ -19,7 +19,7 @@ header {
 }
 
 header h1 {
-    font-size: 4.5rem;
+    font-size: 6rem;
     flex-grow: 0.5;
     /* border: solid 1px red; */
     font-family: "Allura", cursive;
@@ -36,7 +36,7 @@ header img {
 
 .countdown {
     box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.123);
-    padding: 1rem;
+    padding: .5rem;
     margin: 1rem;
 }
 
@@ -56,7 +56,7 @@ header img {
     padding-bottom: 1.5rem;
     border-top: solid 1px black;
     /* border: solid 1px red; */
-    color: rgb(218, 185, 3);
+    color: rgb(198, 170, 7);
     padding-top: .5rem;
 }
 
@@ -65,13 +65,14 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 1rem;
 }
 
 .invitacion {
     box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.123);
-    padding: 1rem;
-    margin: 1rem;
+    padding: .5rem;
+    margin: .5rem;
     align-self: center;
     border: solid 1px rgb(0, 0, 0);
 }
@@ -79,24 +80,26 @@ main {
 .pases {
     /* border: solid 1px red; */
     box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.123);
-    padding: 1rem;
-    margin: 1rem;
+    padding: .5rem;
+    margin: .5rem;
 }
 
 .mapa {
     box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.123);
-    padding: 1rem;
-    margin: 1rem;
+    padding: .5rem;
+    margin: .5rem;
     /* border: solid 1px red; */
 }
 
 .button {
     border: solid 1px rgb(0, 0, 0);
     padding: 1rem;
-    margin: 1rem;
+    margin: .5rem;
     display: flex;
+    width: 100%;
     flex-direction: column;
-    box-shadow: 1rem 1rem rgb(184, 53, 53);
+    box-shadow: .8rem .8rem rgb(198, 170, 7);
+    border: solid 1px rgb(198, 170, 7);
 }
 
 .button h2 {
@@ -139,6 +142,13 @@ footer {
     border-radius: 1rem;
 }
 
+form {
+    /* border: solid 1px red; */
+    width: 80%;
+    padding: .5rem;
+    padding-right: 4rem;
+}
+
 @media only screen and (max-width: 768px) {
     header {
         flex-direction: row;
@@ -152,7 +162,7 @@ footer {
     }
 
     header h1 {
-        font-size: 2rem;
+        font-size: 2.7rem;
         text-align: center;
     }
 
@@ -161,7 +171,7 @@ footer {
     }
 
     .countdown h2 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     main {
@@ -182,12 +192,12 @@ footer {
     }
 
     footer {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .button h2 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     .button textarea {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
