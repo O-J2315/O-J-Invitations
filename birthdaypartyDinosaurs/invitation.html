@@ -8,7 +8,7 @@
     <script src="invitation.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.webp">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.webp">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.webp">
@@ -17,36 +17,49 @@
 </head>
 
 <body>
+    <audio id="audio1" src="images/T-Rex4.mp3" preload="auto"></audio>
+    <audio id="audio2" src="images/T-Rex5.mp3" preload="auto"></audio>
+    <audio id="audio3" src="images/T-Rex10.mp3" preload="auto"></audio>
+
+    <button id="start-button">Play me! 🔊</button>
+
     <header>
-        <img src="images/logo.png" alt="logo" width="100" height="100">
-        <h1>Our Birthday Party<br> Jaziel & Josue</h1>
+        <img src="images/t-rex logoremovedbg.png" alt="logo" width="100" height="100">
+        <h1>Birthday Party!<br> Jaziel & Gael</h1>
     </header>
     <main>
         <div class="countdown">
-            <h1>December 13, 2024 | 7PM</h1>
+            <h3>Save the date!</h3>
+            <h1>December 13, 2024 7:00PM</h1>
             <h2 id="countdown"></h2>
         </div>
         <div class="invitacion">
-            <img src="images/invitacion.png" alt="invitacion" width="500">
+            <h1>🦕🎂 Jaziel and Gael 🎂🦖 <br> Are having their 2nd and 3rd Birthday! </h1>
+            <img src="images/invitacion.png" alt="Pictures" width="500">
         </div>
         <div class="pases">
-            <img src="images/2pases.png" alt="pases" width="500">
+            <img src="images/giftcard-removedbg.png" alt="pases" width="150">
+            <img src="images/moneytreeremovedbg.png" alt="pases" width="150">
+            <div class="gifts">
+                <h1 style="text-align: center;">We would love to receive a Gift Card or Money Tree!</h1>
+            </div>
         </div>
+
         <div class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1697.1678615482253!2d-106.42290462779727!3d31.70672301798561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75da0564a5869%3A0xed27e603c3c1eabb!2sLa%20K%C3%BApula%20Jard%C3%ADn%20y%20Sal%C3%B3n%20de%20eventos!5e0!3m2!1sen!2smx!4v1721842556440!5m2!1sen!2smx"
-                width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2395.904214163361!2d-106.43685881644639!3d31.870708128055014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e7511518522d45%3A0x843b8bcfcba5f88b!2sQD&#39;s%20Venue!5e0!3m2!1sen!2sus!4v1731985624831!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <form>
             <div class="button">
                 <h2>Confirm your attendance!</h2>
-                <textarea id="mensaje" name="mensaje" required placeholder="Familia Hernandez Cornejo Confirma su asistencia 3 Invitados..."></textarea>
-                <button onclick="sendToWhatsapp()">Enviar</button>
+                <textarea id="mensaje" name="mensaje" required placeholder="We are 3 guests..."></textarea>
+                <button onclick="sendToWhatsapp()">RSVP</button>
             </div>
         </form>
     </main>
     <footer>
         <div class="footer">
-            <h2>¡Thank you for comming!</h2>
+            <h2>¡Thank you for coming!</h2>
         </div>
     </footer>
 </body>

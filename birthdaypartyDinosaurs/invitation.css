@@ -1,0 +1,270 @@
+* {
+    margin: .5rem auto .5rem auto;
+    max-width: 97%;
+}
+
+body {
+    background-image: url("https://images.thdstatic.com/productImages/1321513d-3ced-4635-a979-d1aeecfcd842/svn/graham-brown-wallpaper-samples-11833194-64_600.jpg");
+}
+
+#start-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 0 30%;
+    width: 40%;
+}
+
+header {
+    display: flex;
+    height: 10%;
+    /* background-color: rgb(230, 220, 205); */
+    border: solid 2px rgb(0, 0, 0);
+    padding: 1rem;
+    /* border-radius: 1rem; */
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+header h1 {
+    font-size: 6rem;
+    flex-grow: 0.5;
+    border: solid 1px red;
+    font-family: "Bangers", cursive;
+    font-weight: 500;
+    font-style: normal;
+    border-left: solid 1px black;
+    text-align: center;
+    align-self: center;
+}
+
+header img {
+    width: auto;
+    align-self: center;
+}
+
+.countdown {
+    box-shadow: 0 0.2rem 0.5rem rgba(64, 90, 61);
+    padding: .5rem;
+    margin: 1rem;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: solid 2px rgb(0, 0, 0);
+}
+
+.countdown h1 {
+    text-align: center;
+    padding-top: 1.5rem;
+    border: solid 1px red;
+    font-family: "Bangers", cursive;
+    font-weight: 100;
+    font-size: 5rem;
+    margin-bottom: .5rem;
+}
+
+.countdown h2 {
+    padding-bottom: 1.5rem;
+    border-top: solid 2px black;
+    border: solid 1px red;
+    text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Bangers", cursive;
+    font-weight: 100;
+    color: rgb(134, 86, 32);
+    letter-spacing: 3px;
+    padding-top: .5rem;
+}
+
+.countdown h3 {
+    text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Bangers", cursive;
+    font-weight: 100;
+    color: rgb(134, 86, 32);
+}
+
+main {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.invitacion {
+    box-shadow: 0 0.5rem 0.5rem rgba(112, 178, 106);
+    padding: .5rem;
+    margin: .5rem;
+    align-self: center;
+    border: solid 2px rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.invitacion h1 {
+    text-align: center;
+    font-family: "Bangers", cursive;
+    font-weight: 100;
+}
+
+.pases {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-items: center;
+    border: solid 1px red;
+    box-shadow: 0 0.5rem 0.5rem rgba(112, 178, 106);
+    /* padding: .5rem;
+    margin: .5rem; */
+    border: solid 2px rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.pases img {
+    border: solid 1px red;
+}
+
+.gifts {
+    box-shadow: 0 0.2rem 0.5rem rgba(64, 90, 61);
+    padding: .5rem;
+    margin: 1rem;
+    grid-column: 2;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.mapa {
+    box-shadow: 0 0.5rem 0.5rem rgba(112, 178, 106);
+    padding: .5rem;
+    margin: .5rem;
+    border: solid 1px red;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.button {
+    border: solid 2px rgb(64, 90, 61);
+    padding: 1rem;
+    margin: .5rem;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    box-shadow: .8rem .8rem rgb(28, 221, 80);
+    border: solid 2px rgb(64, 90, 61);
+}
+
+.button h2 {
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-family: "Bangers", cursive;
+    font-weight: 100;
+}
+
+.button textarea {
+    padding: 1rem;
+    width: 90%;
+}
+
+.button button {
+    margin-top: .5rem;
+    width: 50%;
+    align-self: center;
+    /* border-radius: 1rem; */
+    border: none;
+    font-weight: 200;
+    font-family: "Bangers", cursive;
+    font-size: 1.5rem;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.123);
+    padding: .5rem;
+    margin: .5rem;
+}
+
+footer {
+    max-width: 100%;
+    padding: 1rem;
+    border: solid 1px red;
+    text-align: center;
+    font-family: "Bangers", cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.5rem;
+    border: solid 2px black;
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+form {
+    border: solid 1px red;
+    width: 80%;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: row;
+    }
+    header img {
+        border: solid 1px red;
+        width: 30%;
+        height: 30%;
+        align-self: center;
+    }
+    header h1 {
+        font-size: 2.7rem;
+        text-align: center;
+    }
+    .countdown h1 {
+        font-size: 3rem;
+    }
+    .countdown h2 {
+        font-size: 1.7rem;
+    }
+    main {
+        padding: 0.5rem;
+    }
+    .invitacion,
+    .pases,
+    .mapa {
+        padding: 0.5rem;
+    }
+    .invitacion img {
+        max-width: 100%;
+    }
+    .pases img {
+        max-width: 100%;
+    }
+    .mapa iframe {
+        max-width: 100%;
+    }
+    footer {
+        font-size: 1.5rem;
+    }
+    .button h2 {
+        font-size: 2.2rem;
+    }
+    .button textarea {
+        font-size: 1.2rem;
+    }
+}

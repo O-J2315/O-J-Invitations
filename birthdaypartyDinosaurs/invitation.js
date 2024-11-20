@@ -35,3 +35,29 @@ function sendToWhatsapp() {
         alert("Llena el mensaje");
     }
 }
+
+// Array to store audio elements
+const audios = [
+    document.getElementById('audio1'),
+    document.getElementById('audio2'),
+    document.getElementById('audio3')
+];
+
+let currentAudio = 0; // Keeps track of the current audio being played
+
+// Function to play the next audio in the sequence
+function playNextAudio() {
+    // Play the current audio
+    audios[currentAudio].play();
+
+    // When the current audio ends, move to the next
+    audios[currentAudio].onended = function() {
+        currentAudio = (currentAudio + 1) % audios.length; // Loop back to the first audio after the last
+        playNextAudio(); // Play the next audio in the sequence
+    };
+}
+
+// Start the sequence when the page loads
+document.getElementById('start-button').addEventListener('click', function() {
+    playNextAudio(); // Start playing the first audio when the button is clicked
+});
