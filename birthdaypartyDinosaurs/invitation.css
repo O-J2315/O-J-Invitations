@@ -37,7 +37,7 @@ header {
 header h1 {
     font-size: 6rem;
     flex-grow: 0.5;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     font-family: "Bangers", cursive;
     font-weight: 500;
     font-style: normal;
@@ -64,7 +64,7 @@ header img {
 .countdown h1 {
     text-align: center;
     padding-top: 1.5rem;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     font-family: "Bangers", cursive;
     font-weight: 100;
     font-size: 5rem;
@@ -74,7 +74,7 @@ header img {
 .countdown h2 {
     padding-bottom: 1.5rem;
     border-top: solid 2px black;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;
     font-size: 2rem;
     text-align: center;
@@ -114,9 +114,12 @@ main {
 }
 
 .invitacion h1 {
+    text-shadow: 2px 2px 0px black, -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;
+    font-size: 2.5rem;
     text-align: center;
     font-family: "Bangers", cursive;
-    font-weight: 100;
+    font-weight: 200;
+    color: rgb(134, 86, 32);
 }
 
 .pases {
@@ -124,7 +127,7 @@ main {
     flex-wrap: wrap;
     justify-content: baseline;
     align-items: center;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     box-shadow: 0 0.5rem 0.5rem rgba(112, 178, 106);
     /* padding: .5rem;
     margin: .5rem; */
@@ -134,7 +137,7 @@ main {
 }
 
 .pases img {
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 .gifts {
@@ -151,7 +154,7 @@ main {
     box-shadow: 0 0.5rem 0.5rem rgba(112, 178, 106);
     padding: .5rem;
     margin: .5rem;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
@@ -197,7 +200,7 @@ main {
 footer {
     max-width: 100%;
     padding: 1rem;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     text-align: center;
     font-family: "Bangers", cursive;
     font-weight: 100;
@@ -210,7 +213,7 @@ footer {
 }
 
 form {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     width: 80%;
     padding-top: .5rem;
     padding-bottom: 1rem;
@@ -226,7 +229,7 @@ form {
         flex-direction: row;
     }
     header img {
-        border: solid 1px red;
+        /* border: solid 1px red; */
         width: 30%;
         height: 30%;
         align-self: center;
