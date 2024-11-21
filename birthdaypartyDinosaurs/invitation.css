@@ -5,6 +5,9 @@
 
 body {
     background-image: url("https://images.thdstatic.com/productImages/1321513d-3ced-4635-a979-d1aeecfcd842/svn/graham-brown-wallpaper-samples-11833194-64_600.jpg");
+    background-size: 40%;
+    background-repeat: repeat;
+    background-position: center;
 }
 
 #start-button {
@@ -44,6 +47,9 @@ header h1 {
     border-left: solid 1px black;
     text-align: center;
     align-self: center;
+    color: black;
+    text-shadow: 0px 0px 5px white, 0px 0px 10px white, 0px 0px 15px white;
+    letter-spacing: 2px;
 }
 
 header img {
@@ -69,6 +75,9 @@ header img {
     font-weight: 100;
     font-size: 5rem;
     margin-bottom: .5rem;
+    color: black;
+    text-shadow: 0px 0px 5px white, 0px 0px 10px white, 0px 0px 15px white;
+    letter-spacing: 2px;
 }
 
 .countdown h2 {
@@ -83,6 +92,7 @@ header img {
     color: rgb(134, 86, 32);
     letter-spacing: 3px;
     padding-top: .5rem;
+    width: 100%;
 }
 
 .countdown h3 {
@@ -134,6 +144,11 @@ main {
     border: solid 2px rgb(0, 0, 0);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    color: black;
+    font-family: "Bangers", cursive;
+    font-weight: 200;
+    text-shadow: 0px 0px 5px white, 0px 0px 10px white, 0px 0px 15px white;
+    letter-spacing: 2px;
 }
 
 .pases img {
@@ -210,6 +225,9 @@ footer {
     border-radius: 1rem;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    color: black;
+    text-shadow: 0px 0px 5px white, 0px 0px 10px white, 0px 0px 15px white;
+    letter-spacing: 2px;
 }
 
 form {
@@ -222,6 +240,11 @@ form {
     justify-content: center;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    font-family: "Bangers", cursive;
+    font-weight: 200;
+    color: black;
+    text-shadow: 0px 0px 5px white, 0px 0px 10px white, 0px 0px 15px white;
+    letter-spacing: 2px;
 }
 
 @media only screen and (max-width: 768px) {
