@@ -132,6 +132,27 @@ main {
     color: rgb(134, 86, 32);
 }
 
+.pictures {
+    /* border: solid 1px red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.pictures img {
+    flex: 1;
+    object-fit: contain;
+    padding: .3rem;
+    border-radius: 1rem;
+    /* border: solid 1px red; */
+    filter: drop-shadow(20px 20px 40px rgba(0, 0, 0, 0.5));
+}
+
 .pases {
     display: flex;
     flex-wrap: wrap;
@@ -163,6 +184,7 @@ main {
     width: 100%;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    background-color: #4CAF50;
 }
 
 .mapa {
